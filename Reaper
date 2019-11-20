@@ -1,0 +1,7 @@
+d convenient_place_for_repository
+git clone https://github.com/google/REAPER.git
+cd REAPER
+mkdir build   # In the REAPER top-level directory
+cd build
+cmake ..
+make
